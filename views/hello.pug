@@ -1,0 +1,13 @@
+//- .myclass
+//-     h1 
+//-     | The new pug (Jade foremerly)
+//-     | Dog name is #{dog}
+//-     | My name is #{name}
+
+//- p query parameter: #{qparam}
+
+extends layout
+
+block content
+    p Hello KK
+    h4 Sale ends #{h.moment().endOf('day').fromNow()}
